@@ -1,3 +1,4 @@
+linkedin.com##:matches-path(/jobs/search-results) #workspace>div>div:style(width: 80vw !important;)
 linkedin.com##:matches-path(/jobs/search-results) [data-testid='lazy-column'][componentkey]:style(visibility: hidden;)
 linkedin.com##:matches-path(/jobs/search-results) [data-testid='lazy-column'][componentkey^='Search']:style(visibility: visible !important;)
 linkedin.com##:matches-path(/jobs/search-results) [data-testid='lazy-column'][componentkey*='-'] a[href*='jobs/view']:style(visibility: visible !important; display: block !important; width: 100vw !important; position: absolute !important; top: 0 !important;)
