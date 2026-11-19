@@ -2,6 +2,5 @@ linkedin.com##:matches-path(/jobs/search-results) #workspace>div>div:style(width
 linkedin.com##:matches-path(/jobs/search-results) [data-testid='lazy-column'][componentkey]:style(visibility: hidden;)
 linkedin.com##:matches-path(/jobs/search-results) [data-testid='lazy-column'][componentkey^='Search']:style(visibility: visible !important;)
 linkedin.com##:matches-path(/jobs/search-results) [data-testid='lazy-column'][componentkey*='-'] a[href*='jobs/view']:style(visibility: visible !important; display: block !important; width: 100vw !important; position: absolute !important; top: 0 !important;)
-linkedin.com##:matches-path(/jobs/search-results) [data-testid='lazy-column'][componentkey*='-'] [id^='JobDetails_AboutTheJob'] p:style(visibility: visible !important;)
-linkedin.com##:matches-path(/jobs/search-results) [data-testid='lazy-column'][componentkey*='-'] [id^='JobDetails_AboutTheJob'] span:style(-webkit-line-clamp: none !important;)
+linkedin.com##:matches-path(/jobs/search-results) [data-testid='lazy-column'][componentkey*='-'] [id^='JobDetails_AboutTheJob'] span:style(visibility: visible !important; -webkit-line-clamp: none !important;)
 linkedin.com##:matches-path(/jobs/search-results) [data-testid='lazy-column'][componentkey*='-']>div>div:not([id^='JobDetails_AboutTheJob']):style(width: 0; height: 0; min-width: 0; min-height: 0; padding: 0; border: 0; !important;)
